@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Welcome To Lace & Lattes</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.css" rel="stylesheet">
+  <link href="css/login1.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+
+    <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="a1.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="f1.html">Fashion</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="b1.html">Beauty</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="h1.html">Lifestyle</a>
+                  </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="c1.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <div id="login_div" class="main-div">
+    <h3>Login to your Account here!</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to your Account</button>
+	<p></p>
+	<p align="center">or</p>
+	<a class="d-block text-center mt-2 small" href="signup1.html">Back</a>
+
+
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome!!!</h3>
+	<p id="user_para">Welcome to Firebase web login. You're currently logged in.</p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<p></p>
+	<!-- <a class="d-block text-center mt-2 small" href="remarks.html">QUERIES ?</a> -->
+
+	 <button onclick="logout()">Logout</button>
+
+
+  </div>
+
+
+
+  <div style="padding: 100px 0">
+  </div>
+
+
+
+ <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+
+    </div>
+  </footer>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+  <script src="js/stylish-portfolio.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyCx1vXNXPgAsjg9N9ZpW7Mo37BhGtPz7ZY",
+    authDomain: "ftll-943c8.firebaseapp.com",
+    databaseURL: "https://ftll-943c8.firebaseio.com",
+    projectId: "ftll-943c8",
+    storageBucket: "",
+    messagingSenderId: "950182353721",
+    appId: "1:950182353721:web:99bd0ed63ce48bc87c66e8",
+    measurementId: "G-FF5RTFPZ8B"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+
+<script src="js/stylish-portfolio.min.js"></script>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+  <script src="login.js"></script>
+
+</body>
+
+</html>

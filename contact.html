@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lace & Lattes</title>
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+</head>
+
+<body>
+
+    <!-- create tourist place form -->
+
+    <div id="add-new-div">
+      <font color="skyblue">
+        <h1 class="add-new-title" id="name-new-title"> CONTACT US!</h1> </font>
+      <strong>  <font color="skyblue">
+        <div class="row">
+            <div class="col-lbl">
+                <label for="name" class="input-lbl"> Name:</label>
+            </div>
+            <div class="col-txt">
+                <input type="text" id="name" class="input-txt" name="name">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lbl">
+                <label for="address" class="input-lbl"> E-mail:</label>
+            </div>
+            <div class="col-txt">
+                <input type="text" id="address" class="input-txt" name="address">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lbl">
+                <label for="rating" class="input-lbl"> Comments:</label>
+            </div>
+            <div class="col-txt">
+                <input type="text" id="rating" class="input-txt" name="rating">
+            </div>
+        </div>
+
+        <div class="row" id="submit-div">
+            <button class="add-new-button" onclick="addPlace()"> Submit</button>
+            <button class="add-new-reset" onclick="resetForm()"> Reset</button>
+        </div>
+
+        <div>
+            <a class="back" href="./index.html" onclick="showTable()">Back to Homepage</a>
+        </div>
+      </font>
+    </strong>
+    </div>
+
+    <!-- Tour places table -->
+
+    <div id="tour-places-div">
+        <table class="tablePlace" id="table-places">
+            <thead>
+                <tr>
+                    <th class="name-col name-col-header">NAME</th>
+                    <th class="address-col">E-MAIL</th>
+                    <th class="rating-col">COMMENTS</th>
+                </tr>
+            </thead>
+            <tbody id="table-places-tbody">
+
+            </tbody>
+
+
+        </table>
+        <input type="button" value="Create New Tourist Place" class="backButton" onclick="BackToaddPlace()">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
