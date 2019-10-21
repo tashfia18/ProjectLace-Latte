@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+#add-new-div {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+#tour-places-div{
+    display: block; 
+	 display: none; 
+  
+  
+}
+
+.add-new-title {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+/* Clear floats after the columns */
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.col-lbl {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-txt {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.input-lbl {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+.input-txt {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-new-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin: 3px 6px;
+    width: 100px;
+}
+  
+.add-new-button:hover {
+    background-color: #0ae715;
+}
+ .buttons
+    {
+        text-decoration: none;
+        color:;#f73471;
+        line-height: 3em;
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 10px;
+        font-family: courier new;
+        -moz-transition: 1s linear;
+        -ms-transition: 1s linear;
+        -o-transition: 1s linear;
+        -webkit-transition: 1s linear;
+        transition: 1s linear;
+		align:right;		
+		
+    }
+
+    .buttons:hover
+    {
+        background-color: #1d809f;
+    }
+.add-new-reset {
+    background-color:  #f73471;
+    color: white;
+	
+    padding: 8px 10px;
+    border-radius: 1px;
+    cursor: pointer;
+    float: right;
+    margin: 10px 55px;
+    width: 90px;
+}
+.add-new-reset:hover { 
+    background-color: #e7870a;
+}
+
+.back:link, .back:visited {
+    display: block;
+    float: right;
+}
+
+.tablePlace {
+    font-family: "Trebuchet MS", "Arial", "Helvetica", "sans-serif";
+    margin:6px 6px;
+    width: 100%;
+    overflow-x:auto;
+}
+
+.tablePlace th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #1d809f;
+    
+    color: black;
+    margin: 2px 2px;
+}
+
+.tablePlace td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+    background-color:#FFFFFF;
+}
+
+.colImage {
+  width:20%;
+  height: auto;
+}
+
+.backButton {
+    background-color: #1d809f;
+    color: white;
+    padding: 12px 12px;
+    margin: 6px 6px;
+}
+
+.backButton:hover {
+  background-color: #1d809f;
+}
